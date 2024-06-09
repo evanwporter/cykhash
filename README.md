@@ -8,7 +8,7 @@ cython wrapper for khash-sets/maps, efficient implementation of `isin` and `uniq
 
   * Numpy's world is lacking the concept of a (hash-)set. This shortcoming is fixed and efficient (memory- and speedwise compared to pandas') `unique` and `isin` are implemented.
 
-  * Python-set/dict have big memory-footprint. For some datatypes the overhead can be reduced by using khash by factor 4-8.
+  * Python-set/dict have big memory-footprint. For some datatypes the overhead can be reduced by using khash by a factor of 4-8.
 
 ## Installation:
 
